@@ -1,0 +1,113 @@
+html{
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+}
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+
+    /* background: rgb(0,0,0);
+    /* background: -moz-linear-gradient(3deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 100%);
+    background: -webkit-linear-gradient(3deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); */
+    background: url("./assets/wooden.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+
+    main {
+        padding: 5rem 0 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .direcao{
+            background-color: #de7344;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: white;
+        }
+
+        h2{
+            color: white;
+        }
+
+        table{
+            font-size: 1.5rem;
+            font-weight: bold;
+
+            th, td{
+                border-bottom: 0.1rem solid white;
+                color: white;
+                
+            }
+            
+            span{
+                font-size: 1.1rem;
+            }
+        }
+
+        .tables{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    footer{
+        position: fixed;
+        padding: 2rem 0 1rem;
+        bottom: 0rem;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+
+        gap: 3rem;
+
+        nav a{
+            text-decoration: none;
+            font-size: 2rem;
+            color: black;
+            font-weight: bold;
+
+            background-color: #de7344;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        div{
+            display: flex;
+            gap: 1rem;
+            a{
+                text-decoration: none;
+                font-size: 1.6rem;
+                color: white;
+            }
+        }
+        
+    }
+
+}
+
+.logomarca{
+    width: 35rem;
+}
