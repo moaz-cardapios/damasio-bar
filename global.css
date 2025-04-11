@@ -24,7 +24,17 @@ html{
     position: relative;
 
     main {
-        padding: 5rem 0 12rem;
+        header{
+            background: url(./assets/coxa-assada.jpg) center no-repeat;
+            background-size: cover;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        padding: 0rem 0 14rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -55,7 +65,7 @@ html{
             th, td{
                 border-bottom: 0.1rem solid white;
                 color: white;
-                
+                line-height: 30px;
             }
             
             span{
@@ -67,6 +77,10 @@ html{
             display: flex;
             justify-content: space-between;
             width: 100%;
+        }
+
+        .bebidas td{
+            line-height: 15px;
         }
     }
 
@@ -83,15 +97,28 @@ html{
 
         gap: 3rem;
 
-        nav a{
-            text-decoration: none;
-            font-size: 2rem;
-            color: black;
-            font-weight: bold;
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            a{
+                text-decoration: none;
+                font-size: 2rem;
+                color: black;
+                font-weight: bold;
 
-            background-color: #de7344;
-            padding: 5px 10px;
-            border-radius: 4px;
+                background-color: #de7344;
+                padding: 5px 10px;
+                border-radius: 4px;
+
+                .whatsapp{
+                    width: 50px;
+                    background-color: white;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+            }
         }
 
         div{
